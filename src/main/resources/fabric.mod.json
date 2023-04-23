@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nodarkness",
+  "version": "${version}",
+  "name": "NoDarkness",
+  "description": "Remove Darkness Effect",
+  "authors": [
+    "As_One"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nodarkness/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "nodarkness.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "1.19.*"
+  }
+}
